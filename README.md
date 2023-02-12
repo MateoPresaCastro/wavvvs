@@ -1,7 +1,12 @@
 
 # wavvvs
 
-Minimal audio sharing/streaming for producers. Tracks will last 24 hours online.
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/C4E0BAQHg73rflkOEEw/company-logo_200_200/0/1676186988722?e=1684368000&v=beta&t=_X4Sq3GL-TOgew8twRgrNbFZ4JXHLm9PpK5mynO-Y0k" />
+</p>
+
+
+wavvvs is a minimal audio sharing/streaming for producers. Tracks will last 24 hours online.
 
 
 ## Screenshots
@@ -12,8 +17,17 @@ Minimal audio sharing/streaming for producers. Tracks will last 24 hours online.
 </p>
 
 
-# Try it
+## Getting started
 
+You'll to create a Cloudinary account:
+
+* [Cloudinary](https://cloudinary.com/) - a cloud media storage.
+
+   Create an account and get your `CLOUD NAME` `API_KEY` and `API_SECRET`.
+
+
+
+## Installation 
 ``git clone https://github.com/MateoPresaCastro/wavvvs.git``
 
 ``cd wavvvs/src``
