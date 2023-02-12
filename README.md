@@ -32,7 +32,7 @@ You'll to create a Cloudinary account:
 1. Clone this repo and enter!
 
    ```bash
-   git clone git clone https://github.com/MateoPresaCastro/wavvvs.git
+   git clone https://github.com/MateoPresaCastro/wavvvs.git
    cd wavvvs/src
    ```
 
