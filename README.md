@@ -3,6 +3,14 @@
 
 Minimal audio sharing/streaming for producers. Tracks will last 24 hours online.
 
+
+## Screenshots
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dlshfgwja/image/upload/v1676199043/suchkvwlztsl2d2rx3xd.png" style="width:40vw;height:auto;" />
+</p>
+
+
 # Try it
 
 ``git clone https://github.com/MateoPresaCastro/wavvvs.git``
