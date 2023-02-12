@@ -75,7 +75,7 @@ The project was started by:
 
 * Mateo Presa - [GitHub](https://github.com/MateoPresaCastro) - [LinkedIn](https://www.linkedin.com/in/mateopresa/)
 
-But it was taken to the next level thanks to the amazing contributions of
+But it was taken to the next level thanks to the amazing contributions by
 
 * Alessio Nannipieri - [GitHub](https://github.com/Al366io) - [LinkedIn](https://www.linkedin.com/in/alessio-nannipieri/)
 * Terence Grover- [GitHub](https://github.com/TerenceGrover) - [LinkedIn](https://www.linkedin.com/in/tgrovermc/)
