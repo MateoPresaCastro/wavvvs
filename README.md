@@ -28,17 +28,56 @@ You'll to create a Cloudinary account:
 
 
 ## Installation 
-``git clone https://github.com/MateoPresaCastro/wavvvs.git``
 
-``cd wavvvs/src``
+1. Clone this repo and enter!
 
-Do ``npm install && npm start`` inside the ``client`` directory and  ``npm install && nodemon index.js`` or ``npm install && node index.js`` in the ``server`` directory.
+   ```bash
+   git clone git clone https://github.com/MateoPresaCastro/wavvvs.git
+   cd wavvvs/src
+   ```
 
-Open the browser and go to ``http://localhost:3000/``.
+2. Install dependencies in the `client` folder and the `server` folder.
 
-Currently there only two routes: ``http://localhost:3000/mateopresa`` and
-``http://localhost:3000/randomproducer``.
+   ```bash
+   npm install
+   ```
 
-You can upload, delete and control track playback on the ``mateopresa`` route. In the ``randomproducer`` route you can only control playback.
+3. Add enviroment variables.
 
-More information inside both directories.
+    Create a `.env` file in the `src` folder and add the follwing variables, e.g:
+    
+    ```bash
+    PORT=3001
+    HOST_NAME=http://localhost
+    SECRET_KEY=efrgthyjut345hse3wdscfgb
+    CLOUD_NAME=dtewshfgwja
+    API_KEY=12643422552198ewtw8795
+    API_SECRET=ED2356Ri34lEm2B164HJ1yKd1SfqXGzitBc
+    ```
+4. Run `npm start` on the `client` folder and `npx tsx index.ts` on the `server` folder.
+
+5. Open your browser pointing to `http://localhost:3000/`
+
+6. Enjoy!
+
+## Tech Stack
+
+* React
+* Node
+* Express
+* Tailwind CSS
+* Mongo with Mongoose
+* JWT
+
+## Developers
+
+The project was started by:
+
+* Mateo Presa - [GitHub](https://github.com/MateoPresaCastro) - [LinkedIn](https://www.linkedin.com/in/mateopresa/)
+
+But it was taken to the next level thanks to the amazing contributions of
+
+* Alessio Nannipieri - [GitHub](https://github.com/Al366io) - [LinkedIn](https://www.linkedin.com/in/alessio-nannipieri/)
+* Terence Grover- [GitHub](https://github.com/TerenceGrover) - [LinkedIn](https://www.linkedin.com/in/tgrovermc/)
+
+
