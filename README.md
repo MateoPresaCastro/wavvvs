@@ -46,7 +46,6 @@ You'll need to create a Cloudinary account:
 3. Add enviroment variables.
 
     Create a `.env` file in the `src` folder and add the follwing variables, e.g:
-    (These keys are fake)
     
     ```bash
     PORT=
@@ -72,6 +71,7 @@ You'll need to create a Cloudinary account:
 * Tailwind CSS
 * Mongo with Mongoose
 * JWT
+* TypeScript
 
 ## Developers
 
