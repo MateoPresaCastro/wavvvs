@@ -45,7 +45,7 @@ You'll to create a Cloudinary account:
 3. Add enviroment variables.
 
     Create a `.env` file in the `src` folder and add the follwing variables, e.g:
-    (This keys are fake)
+    (These keys are fake)
     
     ```bash
     PORT=3001
