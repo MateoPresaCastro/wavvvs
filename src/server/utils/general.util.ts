@@ -1,4 +1,5 @@
 import { Request } from 'express';
+import 'dotenv/config';
 import jwt from 'jsonwebtoken';
 const { SECRET_KEY } = process.env;
 import { v2 as cloudinary } from 'cloudinary';
