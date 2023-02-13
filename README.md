@@ -45,7 +45,7 @@ You'll need to create a Cloudinary account:
 
 3. Add enviroment variables.
 
-    Create a `.env` file in the `src` folder and add the follwing variables, e.g:
+    Create a `.env` file in the `src/server` folder and add the following variables, e.g:
     
     ```bash
     PORT=
@@ -57,6 +57,14 @@ You'll need to create a Cloudinary account:
     STRIPE_PUBLISHABLE_KEY=
     STRIPE_SECRET_KEY=
     ```
+    
+    Create a `.env` file in the `src/client` folder and add the following variables, e.g:
+    
+    ```bash
+    CLOUDINARY_URL=
+    REACT_APP_BACKEND_HOST=http://localhost:3001
+    ```
+    
 4. Run `npm start` on the `client` folder and `npx tsx index.ts` on the `server` folder.
 
 5. Open your browser pointing to `http://localhost:3000/`
