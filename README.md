@@ -20,7 +20,7 @@ wavvvs is a minimal audio sharing/streaming for producers. Tracks will last 24 h
 
 ## Getting started
 
-You'll to create a Cloudinary account:
+You'll need to create a Cloudinary account:
 
 * [Cloudinary](https://cloudinary.com/) - a cloud media storage.
 
