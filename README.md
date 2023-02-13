@@ -49,12 +49,14 @@ You'll to create a Cloudinary account:
     (These keys are fake)
     
     ```bash
-    PORT=3001
-    HOST_NAME=http://localhost
-    SECRET_KEY=efhgrgtf5hyju45dt345hse3wdscfgb
-    CLOUD_NAME=dtewshfgwja
-    API_KEY=126987652552198ewtw8795
-    API_SECRET=ED2352346Ri34lEm2B164HJ1yKd1Sfq9XGzitBc
+    PORT=
+    HOST_NAME=
+    SECRET_KEY=
+    CLOUD_NAME=
+    API_KEY= (cloudinary)
+    API_SECRET= (cloudinary)
+    STRIPE_PUBLISHABLE_KEY=
+    STRIPE_SECRET_KEY=
     ```
 4. Run `npm start` on the `client` folder and `npx tsx index.ts` on the `server` folder.
 
