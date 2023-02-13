@@ -45,14 +45,15 @@ You'll to create a Cloudinary account:
 3. Add enviroment variables.
 
     Create a `.env` file in the `src` folder and add the follwing variables, e.g:
+    (This keys are fake)
     
     ```bash
     PORT=3001
     HOST_NAME=http://localhost
-    SECRET_KEY=efrgthyjut345hse3wdscfgb
+    SECRET_KEY=efhgrgtf5hyju45dt345hse3wdscfgb
     CLOUD_NAME=dtewshfgwja
-    API_KEY=12643422552198ewtw8795
-    API_SECRET=ED2356Ri34lEm2B164HJ1yKd1SfqXGzitBc
+    API_KEY=126987652552198ewtw8795
+    API_SECRET=ED2352346Ri34lEm2B164HJ1yKd1Sfq9XGzitBc
     ```
 4. Run `npm start` on the `client` folder and `npx tsx index.ts` on the `server` folder.
 
