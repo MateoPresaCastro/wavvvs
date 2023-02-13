@@ -57,36 +57,5 @@ wavesurfer.on('finish', () => {
 });
 ```
 
-When you click on play or pause, the ``playOrPauseTrackByID`` function inside ``App.jsx``gets triggered. This function holds the logic of how the boolean flags should get toggled:
-This is when things get complicated for no reason. If someone want's to work in this project I would recommend trying change this to a more manageable solution. Looking into [State Machines](https://en.wikipedia.org/wiki/Finite-state_machine) as [Kostas](https://github.com/kostasx) suggested me later on, might help.
+When you click on play or pause, the ``playOrPauseTrackByID`` function inside ``App.jsx``gets triggered. This function holds the logic of how the boolean flags should get toggled.
 
-```js
-const  playOrPauseTrackByID  = (id) => {
- setTrackList((tracks) => {
-  // Loop trough the tracks and modify the status of th track you want to play/pause
-  const  modifiedTrackList  = tracks.map((track) => {
-   return track.waveformRef.id  ===  id
-   ? { ...track,
-    isLastActive: track.isPlaying  ||  true, // track.isPlaying being false here means you are        clicking play.
-    // the last active track is the last track on which you clicked play.
-    isPlaying: !track.isPlaying, // toggle isPlaying flag on or off
-    isFinished: track.isPlaying  &&  false,
-    }
-   :  track;
-   });
-
- // make sure only one track is playing, and only one track is active at the same time
-  return modifiedTrackList.map((track) => {
-   if (track.isPlaying  && track.waveformRef.id  !==  id) {
-    track.isPlaying  =  !track.isPlaying;
-   }
-   if (track.isLastActive  && track.waveformRef.id  !==  id) {
-    track.isLastActive  =  !track.isLastActive;
-   }
-   return  track;
-  });
- });
-};
-```
-
-All the state gets passed down from the ``App.jsx`` component to the ``MediaController.component.jsx`` so it can have access to the active track, as well as playing the next/previous track and dealing with the repeat of the track. All the helper functions use the ``playOrPauseTrackByID`` function, so a bug there breaks all the audio functionality. I have warned you! 🙃
