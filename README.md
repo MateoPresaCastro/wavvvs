@@ -1,3 +1,4 @@
+# <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/TerenceGrover/wavvvs" /> <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/TerenceGrover/wavvvs" />
 
 # wavvvs
 

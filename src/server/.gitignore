@@ -2,3 +2,8 @@
 /backup-tracks
 /../.DS_Store
 /../.vscode
+/dist
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
